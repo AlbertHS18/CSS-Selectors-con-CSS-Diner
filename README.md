@@ -4,6 +4,6 @@
 
 ### Resumen de los Selectores Aplicados.
 
- *1-Seleccionar elementos*
+ **1-Seleccionar elementos**
 
 Selecciona todos los elementos del tipo A. Tipo se refiere al tipo de etiqueta, por lo que div, pag y ul Son todos tipos de elementos diferentes.
