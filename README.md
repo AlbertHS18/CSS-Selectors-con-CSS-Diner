@@ -4,7 +4,6 @@ Resumen de Selectores
 
 
 ### Resumen de los Selectores Aplicados.
-
-##### **Selector de tipo Seleccionar elementos por su tipo A**
+ **Seleccionar elementos**
 
 Selecciona todos los elementos del tipo A. Tipo se refiere al tipo de etiqueta, por lo que <div>,<pag> y <ul> Son todos tipos de elementos diferentes.
