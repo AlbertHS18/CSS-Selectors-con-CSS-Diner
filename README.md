@@ -7,7 +7,7 @@
 
  **1-Seleccionar todos o un elementos.**
 
-Selecciona todos los elementos del tipo A. Tipo se refiere al tipo de etiqueta, por lo que div, pag y ul. Son todos tipos de elementos diferentes.
+#### Selecciona todos los elementos del tipo A. Tipo se refiere al tipo de etiqueta, por lo que div, pag y ul. Son todos tipos de elementos diferentes.
 
 
 **2-Seleccionar elementos con un ID.**
@@ -40,7 +40,7 @@ En CSS, puedes combinar selectores de clases con otros selectores (como selector
 El combinador de comas en CSS permite aplicar los mismos estilos a múltiples selectores a la vez. Es útil para reducir la redundancia en el código y mantener la hoja de estilos más limpia y legible.
 
 
-**Selector universal.**
+**8-Selector universal.**
 
  El selector universal en CSS selecciona todos los elementos de la página, sin importar el tipo, clase, ID u otros atributos. Es representado por un asterisco (*) y es útil cuando se necesita aplicar un estilo a todos los elementos de manera uniforme.
 
