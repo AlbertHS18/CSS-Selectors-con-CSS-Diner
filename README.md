@@ -15,7 +15,9 @@ Selecciona todos los elementos del tipo A. Tipo se refiere al tipo de etiqueta, 
 ### Ejemplo:
 
 ~~~
-
+* {
+  color: blue;
+}
 ~~~
 
 ------
@@ -28,7 +30,9 @@ Selecciona el elemento con un ID espesifico. También puedes combinar el selecto
 ### Ejemplo:
 
 ~~~
-
+#miId {
+  background-color: yellow;
+}
 ~~~
 
 ------
@@ -41,6 +45,9 @@ El selector de descendientes en CSS selecciona todos los elementos que son desce
 ### Ejemplo:
 
 ~~~
+nav a {
+  text-decoration: none;
+}
 
 ~~~
 
@@ -53,6 +60,9 @@ Permite aplicar estilos a elementos que son descendientes de un elemento especí
 ### Ejemplo:
 
 ~~~
+#menu li {
+  font-weight: bold;
+}
 
 ~~~
 
@@ -66,6 +76,9 @@ El selector de clases en CSS se utiliza para seleccionar elementos HTML que tien
 ### Ejemplo:
 
 ~~~
+.lista {
+  list-style-type: none;
+}
 
 ~~~
 
@@ -79,6 +92,10 @@ En CSS, puedes combinar selectores de clases con otros selectores (como selector
 ### Ejemplo:
 
 ~~~
+.azul.destacado {
+  color: blue;
+  font-weight: bold;
+}
 
 ~~~
 
@@ -92,6 +109,9 @@ El combinador de comas en CSS permite aplicar los mismos estilos a múltiples se
 ### Ejemplo:
 
 ~~~
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
 
 ~~~
 
@@ -105,6 +125,10 @@ El combinador de comas en CSS permite aplicar los mismos estilos a múltiples se
 ### Ejemplo:
 
 ~~~
+* {
+  margin: 0;
+  padding: 0;
+}
 
 ~~~
 
@@ -118,6 +142,9 @@ La combinación del selector universal con otros selectores en CSS puede ser út
 ### Ejemplo:
 
 ~~~
+div * {
+  border: 1px solid black;
+}
 
 ~~~
 
@@ -131,6 +158,9 @@ El selector de hermanos adyacentes en CSS te permite seleccionar un elemento que
 ### Ejemplo:
 
 ~~~
+h2 + p {
+  margin-top: 0;
+}
 
 ~~~
 
@@ -144,6 +174,9 @@ El selector general de hermanos en CSS te permite seleccionar todos los elemento
 ### Ejemplo:
 
 ~~~
+h2 ~ p {
+  font-style: italic;
+}
 
 ~~~
 
@@ -157,6 +190,9 @@ El selector hijo en CSS te permite seleccionar elementos que son hijos directos 
 ### Ejemplo:
 
 ~~~
+ul > li {
+  padding-left: 20px;
+}
 
 ~~~
 
@@ -170,6 +206,9 @@ El pseudoselector :first-child en CSS te permite seleccionar el primer hijo de u
 ### Ejemplo:
 
 ~~~
+ul li:first-child {
+  font-weight: bold;
+}
 
 ~~~
 
@@ -183,6 +222,9 @@ El pseudoselector :only-child en CSS te permite seleccionar elementos que son hi
 ### Ejemplo:
 
 ~~~
+p:only-child {
+  color: red;
+}
 
 ~~~
 
@@ -196,6 +238,9 @@ El pseudoselector :last-child en CSS te permite seleccionar el último hijo de u
 ### Ejemplo:
 
 ~~~
+p:last-child {
+  font-style: italic;
+}
 
 ~~~
 
@@ -209,6 +254,9 @@ El pseudoselector :nth-child() en CSS te permite seleccionar elementos que son e
 ### Ejemplo:
 
 ~~~
+ul li:nth-child(2) {
+  color: green;
+}
 
 ~~~
 
@@ -222,6 +270,9 @@ El pseudoselector :nth-last-child() en CSS es similar a :nth-child(), pero cuent
 ### Ejemplo:
 
 ~~~
+ul li:nth-last-child(2) {
+  background-color: yellow;
+}
 
 ~~~
 
@@ -235,6 +286,9 @@ El selector de tipo en CSS te permite seleccionar elementos basados en su tipo, 
 ### Ejemplo:
 
 ~~~
+p:first-of-type {
+  font-size: 20px;
+}
 
 ~~~
 
@@ -248,6 +302,9 @@ El pseudoselector :nth-of-type() en CSS te permite seleccionar elementos especí
 ### Ejemplo:
 
 ~~~
+p:nth-of-type(odd) {
+  background-color: lightgray;
+}
 
 ~~~
 
@@ -261,6 +318,9 @@ El pseudoselector :nth-of-type((An+B)) en CSS admite fórmulas matemáticas para
 ### Ejemplo:
 
 ~~~
+p:nth-of-type(3n+1) {
+  color: blue;
+}
 
 ~~~
 
@@ -275,6 +335,9 @@ El pseudoselector :only-of-type en CSS selecciona elementos que son el único el
 ### Ejemplo:
 
 ~~~
+p:last-of-type {
+  text-align: right;
+}
 
 ~~~
 
@@ -288,6 +351,9 @@ El selector vacío (:empty) en CSS te permite seleccionar elementos que no conti
 ### Ejemplo:
 
 ~~~
+div:empty {
+  border: 1px dashed gray;
+}
 
 ~~~
 
@@ -302,6 +368,9 @@ La pseudoclase de negación (:not()) en CSS te permite seleccionar elementos que
 ### Ejemplo:
 
 ~~~
+p:not(.importante) {
+  color: gray;
+}
 
 ~~~
 
@@ -315,6 +384,9 @@ El selector de atributos en CSS te permite seleccionar elementos HTML que tienen
 ### Ejemplo:
 
 ~~~
+a[target="_blank"] {
+  color: red;
+}
 
 ~~~
 
@@ -327,6 +399,9 @@ El selector de valor de atributo en CSS te permite seleccionar elementos HTML qu
 ### Ejemplo:
 
 ~~~
+input[type="text"] {
+  width: 200px;
+}
 
 ~~~
 
@@ -340,6 +415,9 @@ El selector de atributos que comienza con un valor específico en CSS te permite
 ### Ejemplo:
 
 ~~~
+img[src^="https"] {
+  border: 2px solid green;
+}
 
 ~~~
 
@@ -354,6 +432,9 @@ El selector de atributos que termina con un valor específico en CSS te permite 
 ### Ejemplo:
 
 ~~~
+a[href$=".pdf"] {
+  color: blue;
+}
 
 ~~~
 
@@ -369,6 +450,9 @@ El selector de atributos comodín en CSS te permite seleccionar elementos cuyo a
 ### Ejemplo:
 
 ~~~
+input[name*="pass"] {
+  background-color: yellow;
+}
 
 ~~~
 
