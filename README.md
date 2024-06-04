@@ -3,6 +3,8 @@
 
 ### Resumen de los Selectores Aplicados.
 
+------
+
 
 
 **1-Seleccionar todos o un elementos.**
