@@ -5,10 +5,15 @@
 
 
 
- **1-Seleccionar todos o un elementos.**
+**1-Seleccionar todos o un elementos.**
 
-#### Selecciona todos los elementos del tipo A. Tipo se refiere al tipo de etiqueta, por lo que div, pag y ul. Son todos tipos de elementos diferentes.
+Selecciona todos los elementos del tipo A. Tipo se refiere al tipo de etiqueta, por lo que div, pag y ul. Son todos tipos de elementos diferentes.
 
+### Ejemplo:
+
+~~~
+
+~~~
 
 **2-Seleccionar elementos con un ID.**
 
@@ -27,10 +32,10 @@ Permite aplicar estilos a elementos que son descendientes de un elemento especí
 
 **5-Selector de clases.**
 
- El selector de clases en CSS se utiliza para seleccionar elementos HTML que tienen un atributo de clase específico. Esto permite aplicar estilos a uno o varios elementos que comparten la misma clase.
+El selector de clases en CSS se utiliza para seleccionar elementos HTML que tienen un atributo de clase específico. Esto permite aplicar estilos a uno o varios elementos que comparten la misma clase.
 
 
- **6-Combinación del selector de clases.**
+**6-Combinación del selector de clases.**
  
 En CSS, puedes combinar selectores de clases con otros selectores (como selectores de tipo, ID, atributos, etc.) para aplicar estilos a elementos que cumplen con múltiples condiciones. Esto te permite una mayor precisión y control en la aplicación de estilos.
 
@@ -45,22 +50,22 @@ El combinador de comas en CSS permite aplicar los mismos estilos a múltiples se
  El selector universal en CSS selecciona todos los elementos de la página, sin importar el tipo, clase, ID u otros atributos. Es representado por un asterisco (*) y es útil cuando se necesita aplicar un estilo a todos los elementos de manera uniforme.
 
  
- **9-Combinación de selector universal.**
+**9-Combinación de selector universal.**
 
- La combinación del selector universal con otros selectores en CSS puede ser útil para aplicar estilos de manera específica a ciertos elementos o grupos de elementos. 
+La combinación del selector universal con otros selectores en CSS puede ser útil para aplicar estilos de manera específica a ciertos elementos o grupos de elementos. 
 
 
- **10-Selector de hermanos adyacentes.**
+**10-Selector de hermanos adyacentes.**
 
- El selector de hermanos adyacentes en CSS te permite seleccionar un elemento que es inmediatamente precedido por otro elemento específico. Se representa con el símbolo + .
+El selector de hermanos adyacentes en CSS te permite seleccionar un elemento que es inmediatamente precedido por otro elemento específico. Se representa con el símbolo + .
  
 
- **11-Selector general de hermanos.**
+**11-Selector general de hermanos.**
 
- El selector general de hermanos en CSS te permite seleccionar todos los elementos que son hermanos de otro elemento específico, independientemente de su posición relativa. Se representa con el símbolo ~ .
+El selector general de hermanos en CSS te permite seleccionar todos los elementos que son hermanos de otro elemento específico, independientemente de su posición relativa. Se representa con el símbolo ~ .
 
 
- **12-Selector hijo.**
+**12-Selector hijo.**
 
 El selector hijo en CSS te permite seleccionar elementos que son hijos directos de otro elemento específico. Se representa con el símbolo >.
 
