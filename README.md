@@ -431,6 +431,7 @@ input[name*="pass"] {
 ~~~
 
 ------
+------
 
 ## Score de niveles realizados:
 
