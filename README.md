@@ -434,7 +434,7 @@ input[name*="pass"] {
 
 ## Score de niveles realizados:
 
-![niveles-completados.jpg](https://postimg.cc/6yxmS7md)
+[![niveles-completados.jpg](https://i.postimg.cc/CLRpRkC6/niveles-completados.jpg)](https://postimg.cc/6yxmS7md)
 
 
 
