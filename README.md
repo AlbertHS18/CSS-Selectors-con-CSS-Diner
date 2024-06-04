@@ -16,6 +16,7 @@ Selecciona todos los elementos del tipo A. Tipo se refiere al tipo de etiqueta, 
 ~~~
 
 ~~~
+------
 
 **2-Seleccionar elementos con un ID.**
 
